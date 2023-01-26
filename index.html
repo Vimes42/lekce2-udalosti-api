@@ -11,15 +11,18 @@
 
 	<h1>Změna tříd, události</h1>
 
-	<div class="ctverecek zluty"></div>
+	<p onmouseover="textBold()">V elipse spí lev.</p>
+    <button onclick="zmenBarvu()" class="tlacitko">červený po kliknutí</button>
+    <button onclick="zvetsiPismo()" class="tlacitko">větší po kliknutí</button>
 
-	<div class="ctverecek zeleny"></div>
+    <audio src="audio/dingdingdang.mp3" preload="auto" class="zvuk"></audio>
+    <button onclick="prehraj()" class="tlacitko">Přehrát</button>
+    <button onclick="stop()" class="tlacitko">Pauza</button>
+    <button onclick="pretoc()" class="tlacitko">Na začátek</button>
 
-	<img class="obrazek" src="obrazky/kocka.jpg">
+    <script src="main.js"></script>
 
-	<button class="tlacitko">Čudlajs</button>
-
-	<audio src="audio/dingdingdang.mp3" preload="auto"></audio>
+	
 
 </body>
 </html>
