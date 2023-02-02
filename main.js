@@ -3,8 +3,6 @@
 let odstavec = document.querySelector("p");
 let zvuk = document.querySelector(".zvuk");
 
-
-
 function textBold(){
     if(odstavec.style.fontWeight == "bold"){
         odstavec.style.fontWeight = "normal";
@@ -18,7 +16,7 @@ function zmenBarvu(){
 }
 
 function zvetsiPismo(){
-    odstavec.style.fontSize = "17px";
+    odstavec.style.fontSize = (odstavec.style.fontSize + 1) + 'px';
 }
 
 function prehraj(){
